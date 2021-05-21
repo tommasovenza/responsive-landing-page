@@ -1,26 +1,26 @@
-Create a Landing Page using the attached mockup file.
+Create a copy of Landing Page using the attached mockup file.
 ===============================
 
-![preview](https://github.com/tomorrowdevs-projects/hotel-booking-landing-page/blob/main/preview.png "preview")
+![preview](https://github.com/tomorrowdevs-projects/responsive-landing-page/blob/main/preview.png "preview")
 
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/hotel-booking-landing-page/blob/main/Hotel_Booking_Freebie.fig)
+## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/responsive-landing-page/blob/main/Mobile_App_Landing_Page.fig)
+
 
 Requirements:
 ----------------
 - Create the Landing Page for Desktop view
+- Create the Landing Page for Mobile view
 - Respect exactly the provided layout
 - Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
 - The page should have an efficient SEO level
-- Write CSS following BEM Methodology
 - After the project is deployed, analyze it with https://web.dev
-
 
 
 Knowledge Required for the Project:
 ----------------
 - Basic HTML
 - CSS Flexbox
-- BEM Methodology
+- Responsiveness Rules
 - SVG integration
 - Rounded Images
 - External Fonts integration
