@@ -81,7 +81,6 @@ h1 {
     }
 }
 /* finished first part */
-
 .background-section {
     display: flex;
     height: 592px;
@@ -154,7 +153,6 @@ h1 {
 @media all and (max-width: 800px) {
     .background-section {
         flex-direction: column-reverse;
-        margin-top: 100px;
         height: 800px;
     }
     .what-it-does__text {
@@ -164,11 +162,6 @@ h1 {
     }
     .images-container {
         margin: 0;
-        /* height: 380px; */
-    }
-    .white-desktop {
-        padding-top: 100px;
-        height: 525px;
     }
 }
 @media all and (max-width: 500px) {
@@ -190,146 +183,3 @@ h1 {
         width: 100px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .background {
-    height: 592px;
-    position: relative;
-    background-image: url('../img/match.png');
-    background-repeat: no-repeat;
-    background-position: -100px center;
-}
-.background::after {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(white 100%, white 20%);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.5;
-    z-index: 1;
-}
-.wrapper {
-    position: relative;
-    display: flex;
-}
-.images-container {
-    /* position: relative; */
-    /* margin: 100px 0;
-} */
-/* .images-container::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: red;
-} */
-/* .what-it-does .background .container {
-    display: flex;
-    justify-content: space-between;
-}
-.first {
-    width: 430px;
-    position: absolute;
-    z-index: 3;
-}
-.second {
-    position: absolute;
-    top: 150px;
-    left: 150px;
-    z-index: 2;
-}
-.what-it-does__text {
-    display: flex;
-    flex-direction: column;
-    margin: 100px 0;
-    width: 40%;
-    z-index: 2;
-}
-.what-it-does__text h2 {
-    margin: 20px 0;
-    color: #00ADEE;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 16px;
-}
-.what-it-does__text h3 {
-    margin: 20px 0;
-    font-weight: 700;
-    color: #333333;
-    font-size: 28px;
-}
-.what-it-does__text a {
-    margin: 20px 0;
-    text-decoration: none;
-    color: #00ADEE;
-    font-weight: 700;
-} */
-
-
-    /* .what-it-does .background .container {
-        flex-direction: column-reverse;
-    }
-    .background {
-        background: none;
-    }
-    .what-it-does__text {
-        width: 100%;
-        margin: 0;
-        text-align: center;
-    }
-    .first {
-        width: 330px;
-        left: -50px;
-    }
-    .second {
-        width: 270px;
-        left: 50px;
-    }
-    .images-container {
-        margin: 0;
-    }
-} */
