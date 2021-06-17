@@ -274,6 +274,7 @@ h1 {
 .fa-square {
     position: relative;
 }
+/* style added to create HD on blank square */
 .fa-square::after {
     content: 'HD';
     color: #00ADEE;
@@ -284,7 +285,6 @@ h1 {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 800;
-    z-index: 1;
 }
 
 @media all and (max-width: 800px) {
@@ -309,5 +309,107 @@ h1 {
     }
     .fa-square::after {
         color: #fff;
+    }
+}
+/* section carousel with reviews */
+.carousel {
+    padding: 50px 0;
+    height: 450px;
+}
+.carousel img {
+    width: 100%;
+    border-radius: 50%;
+}
+.heading-carousel h2 {
+    text-align: center;
+}
+.carousel .single-card-container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.carousel .single-card {
+    flex-basis: 300px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px;
+}
+.carousel .single-card .single-card__heading {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 3px 0;
+}
+.carousel .single-card .single-card__heading h3 {
+    align-self: center;
+    color: #333;
+    flex-grow: 1;
+}
+.carousel .single-card .single-card__heading .fa-twitter {
+    color: #00ADEE;
+    align-self: center;
+}
+.carousel .single-card .single-card__text {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+    color: #4f4f4f;
+}
+.carousel .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #00ADEE;
+    margin: 0 10px;
+}
+.carousel .arrow-left {
+    left: 30px;
+}
+.carousel .arrow-right {
+    right: 30px;
+}
+.carousel .arrow-left, .carousel .arrow-right {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 30px;
+    color: #00ADEE;
+}
+.carousel .arrow-left::after, .carousel .arrow-right::after {
+    border: 2px solid #00ADEE;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: -1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+.active {
+    display: block;
+}
+
+.container-circle {
+    display: flex;
+    justify-content: center;
+    color: #00ADEE;
+}
+.container-circle i {
+    margin: 0 5px;
+}
+.container-circle i:first-child {
+    background-color: #00ADEE;
+    border-radius: 50%  ;
+}
+
+@media all and (max-width: 800px) {
+    .active {
+        display: none;
     }
 }
