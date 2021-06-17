@@ -265,6 +265,27 @@ h1 {
     flex-basis: calc(100% / 3);
     padding: 20px 40px;
 }
+.blue-content ul {
+    margin-top: 20px;
+}
+.blue-content i {
+    font-size: 40px;
+}
+.fa-square {
+    position: relative;
+}
+.fa-square::after {
+    content: 'HD';
+    color: #00ADEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    z-index: 1;
+}
 
 @media all and (max-width: 800px) {
     #blue {
@@ -281,5 +302,12 @@ h1 {
     }
     .row-blue li {
         list-style: none;
+    }
+    .blue-content i {
+        color: #00ADEE;
+        /* font-size: 24px; */
+    }
+    .fa-square::after {
+        color: #fff;
     }
 }
