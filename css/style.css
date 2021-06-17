@@ -407,9 +407,41 @@ h1 {
     background-color: #00ADEE;
     border-radius: 50%  ;
 }
+/* logo section */
+.logo {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+.logo .logo-heading h2 {
+    margin: 20px 0 50px 0;
+}
+/* .logo .logo-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.logo ul {
+    display: flex;
+    align-items: center;
+}
+.logo ul li {
+    list-style: none;
+    flex-basis: calc(100% / 6);
+    padding: 0 20px;
+}
 
 @media all and (max-width: 800px) {
     .active {
         display: none;
+    }
+    .logo ul {
+        flex-wrap: wrap;
+    }
+    .logo ul li {
+        flex-basis: calc(100% / 2);
+        margin: 20px 0;
     }
 }
