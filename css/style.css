@@ -445,3 +445,42 @@ h1 {
         margin: 20px 0;
     }
 }
+/* close team section */
+.close-team-container {
+    display: flex;
+}
+.close-team-container .close-team__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+@media all and (max-width: 800px) {
+    .close-team-container {
+        flex-direction: column-reverse;
+    }
+}
+
+/* footer */
+footer {
+    background-color: #00ADEE;
+    color: #fff;
+    height: 127px;
+    display: flex;
+    align-content: center;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff ;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
