@@ -460,6 +460,9 @@ h1 {
     .close-team-container {
         flex-direction: column-reverse;
     }
+    .close-team__background img {
+        width: 360px;
+    }
 }
 
 /* footer */
