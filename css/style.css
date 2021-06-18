@@ -246,6 +246,12 @@ h1 {
     .wrapper-get-started .white-desktop {
         padding: 0;
     }
+    .telephone-wrapper img:first-child {
+        width: 250px;
+    }
+    .telephone-wrapper::after, .telephone-wrapper::before {
+        max-width: 300px;
+    }
 }
 
 #blue {
